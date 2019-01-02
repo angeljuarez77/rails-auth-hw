@@ -7,7 +7,7 @@ For this assignment, you will be building a single model Rails app with user aut
 
 Fork and clone this repo.
 
-In the terminal, in the directory where you want to create a project, generate a new Rails project and cd in to it:
+In the terminal, in the directory where you want to create a project, generate a new Rails project and `cd` in to it:
 
 ```shell
 rails new products --api --database=postgresql
