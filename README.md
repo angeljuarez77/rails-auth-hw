@@ -53,7 +53,7 @@ In the terminal, run:
 rails db:drop db:create db:migrate
 ```
 
-
+### Configure the User Model:
 Refer to [todays lesson](https://git.generalassemb.ly/wdi-nyc-octonion/rails-knock-auth/blob/master/README.md#configure-the-user-model) for setting up the User Model.
 
 # Deliverables
