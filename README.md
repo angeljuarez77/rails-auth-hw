@@ -1,6 +1,7 @@
 # Rails-Auth-HW with Knock
 
-For this assignment, you will be building a simple app with user authorization in Rails. You are only required to implement auth for the model. **As a bonus, incorporate another model, called _Bird_.**
+For this assignment, you will be building a simple app with user authorization in Rails. You are only required to implement auth for the User model.   
+**As a bonus, incorporate another model, called _Game_.**
 
 ## Getting Started
 
@@ -9,8 +10,8 @@ Fork and clone this repo.
 In the terminal, in the directory where you want to create a project, generate a new Rails project and cd in to it:
 
 ```shell
-rails new birds --api --database=postgresql
-cd birds
+rails new game --api --database=postgresql
+cd game
 ```
 
 In your Gemfile, make sure you have:
@@ -22,7 +23,7 @@ gem 'knock'
 gem 'jwt'
 ```
 
-AND
+**AND**
 
 ```ruby
 gem 'pry-rails'
@@ -40,7 +41,7 @@ rails generate scaffold User email:string password_digest:string
 **For the Bonus:**
 
 ```
-rails generate scaffold Bird name:string color:string can_fly:boolean
+rails generate scaffold Game name:string company:string multiplayer:boolean
 ```
 
 ### Set up DB:
@@ -58,4 +59,4 @@ Refer to [todays lesson](https://git.generalassemb.ly/wdi-nyc-octonion/rails-kno
 - Do a PR.
 
 # Bonus
-- Incorporate the birds model and check your routes in Insomnia.
+- Incorporate the Game model and check your routes in Insomnia.
