@@ -60,3 +60,5 @@ Refer to [todays lesson](https://git.generalassemb.ly/wdi-nyc-octonion/rails-kno
 
 # Bonus
 - Incorporate the Product model and check your routes in Insomnia.
+
+![](https://media.giphy.com/media/l4EpjqXhHlmZdJUys/giphy.gif)
