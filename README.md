@@ -41,7 +41,7 @@ rails generate scaffold User email:string password_digest:string
 **For the Bonus:**
 
 ```
-rails generate scaffold Product name:string company:string multiplayer:boolean
+rails generate scaffold Product name:string shop_name:string in_stock:boolean
 ```
 
 ### Set up DB:
