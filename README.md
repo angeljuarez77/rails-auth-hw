@@ -1,6 +1,6 @@
 # Rails-Auth-HW with Knock
 
-For this assignment, you will be building a simple app with user authorization in Rails. You are only required to implement auth for the User model.   
+For this assignment, you will be building a single model Rails app with user authorization in Rails. You are only required to implement auth for the User model.   
 **As a bonus, incorporate another model, called _Product_.**
 
 ## Getting Started
