@@ -32,17 +32,19 @@ gem 'pry-rails'
 In the terminal, from the root of the project, run `bundle install`.
 
 ### Scaffolding
-Implement Auth based on today's lesson by running:
+Implement Auth by running:
 
 ```
 rails generate scaffold User email:string password_digest:string
 ```
 
+**********
 **For the Bonus:**
 
 ```
 rails generate scaffold Product name:string shop_name:string in_stock:boolean
 ```
+*********
 
 ### Set up DB:
 In the terminal, run:
