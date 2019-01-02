@@ -1,6 +1,6 @@
 # Rails-Auth-HW with Knock
 
-For this assignment, you will be building a simple app with user authorization in Rails. You are only required to implement auth for the model. **As a bonus, incorporate another model, called _Birds_.**
+For this assignment, you will be building a simple app with user authorization in Rails. You are only required to implement auth for the model. **As a bonus, incorporate another model, called _Bird_.**
 
 ## Getting Started
 
@@ -40,7 +40,7 @@ rails generate scaffold User email:string password_digest:string
 **For the Bonus:**
 
 ```
-rails generate scaffold Post name:string color:string can_fly:boolean
+rails generate scaffold Bird name:string color:string can_fly:boolean
 ```
 
 ### Set up DB:
